@@ -1,0 +1,267 @@
+/*page1动画*/
+/* page1 line动画*/
+@-webkit-keyframes page1_line{
+    0%{
+        opacity:.5;
+        -webkit-transform: rotateX(38deg) rotateZ(0deg);
+                transform: rotateX(38deg) rotateZ(0deg);
+    }
+     100%{
+        opacity:1;
+        -webkit-transform: rotateX(40deg) rotateZ(360deg);
+                transform: rotateX(40deg) rotateZ(360deg);
+     }
+
+}
+@keyframes page1_line{
+    0%{
+        -webkit-transform: rotateX(30deg) rotateY(45deg) rotateZ(0deg);
+                transform: rotateX(30deg) rotateY(45deg) rotateZ(0deg);
+    }
+
+     100%{
+        -webkit-transform: rotateX(30deg) rotateY(45deg) rotateZ(360deg);
+                transform: rotateX(30deg) rotateY(45deg) rotateZ(360deg);
+     }
+
+}
+.page1_line{
+   -webkit-animation:page1_line liner 4s forwards infinite;
+   animation: page1_line linear 4s forwards infinite;
+}
+
+
+
+@keyframes page1_text1{
+  0%{
+    opacity:1;
+    -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+            transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+  24%{
+    opacity: 1;
+  }
+  25%{
+    opacity: 0;
+  }
+  50%{
+    opacity:0;
+  }
+  74%{
+    opacity: 0;
+  }
+  75%{
+    opacity: 1;
+  }
+ 
+  100%{
+    opacity:1;
+    -webkit-transform: rotateX(0deg) rotateY(360deg) rotateZ(0deg);
+            transform: rotateX(0deg) rotateY(360deg) rotateZ(0deg);
+  }
+}
+
+/*@keyframes page1_text1{
+  0%{
+    opacity:1;
+    -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+            transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+
+  100%{
+    opacity:0;
+    -webkit-transform: rotateX(0deg) rotateY(360deg) rotateZ(0deg);
+            transform: rotateX(0deg) rotateY(360deg) rotateZ(0deg);
+  }
+}
+*/
+.page1_text1{
+    -webkit-animation:page1_text1 liner 32s forwards infinite;
+   animation: page1_text1 linear 32s forwards infinite;
+}
+
+
+@keyframes page1_frame{
+    0%{
+        opacity:0;
+        -webkit-transform: rotateY(0deg) rotateZ(0deg);
+        transform: rotateY(0deg) rotateZ(0deg);
+    }
+    24%{
+        opacity: 0;
+    }
+     25%{
+        opacity:1;
+    }
+
+    50%{
+         opacity:1;
+    }
+    
+    74%{
+      opacity: 1;
+    }
+     75%{
+      opacity:0;
+   
+    }
+    100%{
+      opacity: 0; 
+      -webkit-transform:rotateY(360deg) rotateZ(0deg);
+      transform:rotateY(360deg) rotateZ(0deg);
+    }
+
+}
+.page1_frame{
+  -webkit-animation:page1_frame liner 32s  infinite;
+   animation: page1_frame linear 32s  infinite;
+}
+
+/*page2动画*/
+@keyframes cartoon_1 {
+    0%{
+        transform: translateX(470px) translateY(0) translateZ(-95px)
+        rotateX(0deg) rotateY(41deg) rotateZ(0deg)
+    
+    }
+    100%{
+        transform: translateX(470px) translateY(0) translateZ(-95px)
+        rotateX(0deg) rotateY(41deg) rotateZ(360deg)
+       
+    }
+}
+@keyframes cartoon_2 {
+    0%{
+        transform: translateX(230px) translateY(5px) translateZ(-50px)
+        rotateX(0deg) rotateY(-30deg) rotateZ(0deg)
+       
+    }
+    100%{
+        transform: translateX(230px) translateY(5px) translateZ(-50px)
+        rotateX(0deg) rotateY(-30deg) rotateZ(360deg)
+      
+    }
+}
+@keyframes cartoon_3 {
+    0%{
+        transform: translateX(142px) translateY(0) translateZ(-50px)
+        rotateX(0deg) rotateY(-5deg) rotateZ(0deg)
+        
+    }
+    100%{
+        transform: translateX(142px) translateY(0) translateZ(-50px)
+        rotateX(0deg) rotateY(-5deg) rotateZ(360deg)
+        
+    }
+}
+/*page3动画*/
+@keyframes bg3_cartoon {
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform:rotateY(360deg);
+    }
+}
+
+@keyframes o_circer{
+   0%{
+    transform:translateX(0) translateY(0) translateZ(0)
+    rotateX(0deg) rotateY(0deg) rotateZ(0deg)
+    scale(1.3);
+    }
+    100%{
+    transform:translateX(0) translateY(0) translateZ(0)
+    rotateX(0deg) rotateY(0deg) rotateZ(360deg)
+    scale(1.3);
+    }
+}
+
+@keyframes t_circer{
+   0%{
+    transform:translateX(0) translateY(0) translateZ(0)
+    rotateX(0deg) rotateY(60deg) rotateZ(60deg) scale(1.3); 
+    }
+    100%{
+       transform:translateX(0) translateY(0) translateZ(0)
+    rotateX(0deg) rotateY(60deg) rotateZ(420deg) scale(1.3); 
+    }
+}
+@keyframes s_circer{
+   0%{
+      transform:translateX(0) translateY(0) translateZ(0)
+    rotateX(0deg) rotateY(-60deg) rotateZ(-60deg)
+    scale(1.3);   
+    }
+    100%{
+       transform:translateX(0) translateY(0) translateZ(0)
+    rotateX(0deg) rotateY(-60deg) rotateZ(300deg) scale(1.3);   
+    }
+}
+/*page4动画*/
+@keyframes bg4_1{
+  0%{
+    transform: translateX(0) translateY(0) translateZ(40px)
+    rotateX(0deg) rotateY(0deg) rotateZ(0deg)
+    scaleX(1) scaleY(1) scaleZ(1);
+  }
+  100%{
+     transform: translateX(0) translateY(0) translateZ(40px)
+    rotateX(0deg) rotateY(0deg) rotateZ(360deg)
+    scaleX(1) scaleY(1) scaleZ(1);
+  }
+}
+@keyframes bg4_3{
+  0%{
+    transform: translateX(0) translateY(0) translateZ(94px)
+    rotateX(0deg) rotateY(0deg) rotateZ(0deg)
+    scaleX(1) scaleY(1) scaleZ(1);
+  }
+  100%{
+     transform: translateX(0) translateY(0) translateZ(94px)
+    rotateX(0deg) rotateY(0deg) rotateZ(360deg)
+    scaleX(1) scaleY(1) scaleZ(1);
+  }
+}
+@keyframes bg4_4{
+  0%{
+    transform: translateX(0) translateY(0) translateZ(100px)
+    rotateX(0deg) rotateY(0deg) rotateZ(0deg)
+    scaleX(1) scaleY(1) scaleZ(1);
+  }
+  100%{
+     transform: translateX(0) translateY(0) translateZ(100px)
+    rotateX(0deg) rotateY(0deg) rotateZ(360deg)
+    scaleX(1) scaleY(1) scaleZ(1);
+  }
+}
+@keyframes bg4_5{
+  0%{
+    transform: translateX(0) translateY(0) translateZ(112px)
+    rotateX(0deg) rotateY(0deg) rotateZ(0deg)
+    scaleX(1) scaleY(1) scaleZ(1);
+  }
+  100%{
+     transform: translateX(0) translateY(0) translateZ(112px)
+    rotateX(0deg) rotateY(0deg) rotateZ(360deg)
+    scaleX(1) scaleY(1) scaleZ(1);
+  }
+}
+@keyframes line_1{
+  0%{
+    transform:translateX(0);
+  }
+  100%{
+   transform:translateX(1600px);
+  }
+}
+@keyframes line_2{
+  0%{
+    transform:translateX(0)
+    scaleY(2);
+  }
+  100%{
+   transform:translateX(3000px)
+   scaleY(2);
+  }
+}
