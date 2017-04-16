@@ -47,7 +47,7 @@ oLoad.style.display='none';
 (function(){
 	var oMsg=document.getElementById('message');
 	var aSpan=oMsg.children;
-	var arr=['姓名：马建原','年龄：23岁','电话：18639956617','邮箱：1148796965@qq.com','学历：本科一批','学校：河南农业大学','英语水平：CET 6'];
+	var arr=['姓名：马建原','年龄：23岁','电话：18639956617','邮箱：jianyuanma@163.com','学历：本科一批','学校：河南农业大学','英语水平：CET 6'];
 	var iNow=0;
 	function play(n){
 		var i=0;
